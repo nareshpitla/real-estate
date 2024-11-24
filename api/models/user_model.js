@@ -1,6 +1,5 @@
 import { Timestamp } from "bson";
 import mongoose from "mongoose";
-import { emit, emitWarning } from "process";
 
 const userSchema = new mongoose.Schema({
     username:{
