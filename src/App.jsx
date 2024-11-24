@@ -1,4 +1,3 @@
-import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -14,7 +13,7 @@ export default function App() {
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/About" element={<About />} />
-    <Route path="/Sign-up" element={<SignUp />} />
+    <Route path="/sign-up" element={<SignUp />} />
     <Route path="/sign-in" element={<Signin />} />
     <Route path="/sign-out" element={<SignOut/>} />
     <Route path="/Profile" element={<Profile />} />
